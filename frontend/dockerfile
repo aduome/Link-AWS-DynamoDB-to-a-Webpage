@@ -1,7 +1,9 @@
 FROM php
-COPY ./index.php ./
-COPY ./login.php ./
-COPY ./guestlist.php ./
+COPY ./workspace/Link-AWS-DynamoDB-to-a-Webpage/frontend ./
+
+# Set the working directory to the web app folder
+WORKDIR /workspace/Link-AWS-DynamoDB-to-a-Webpage/frontend
+
 
 EXPOSE 8000
 CMD ["php", "-S", "0.0.0.0:8000"]
