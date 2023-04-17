@@ -30,20 +30,34 @@
 	
 	<!-- You will input your dynamo code here.....research on php + dynamo -->
 	<!-- tr stands for table row, and td for description..... this will need to be dynamic -->
-        <?php
-                    require 'vendor/autoload.php';
+  <?php
+    require 'vendor/autoload.php';
+    use Aws\DynamoDb\DynamoDbClient;
 
-                    // Set up AWS SDK for PHP
-                   
+    // Set up AWS SDK for PHP
+    $client = new DynamoDbClient([
+      'region' => 'us-east-1',
+      'version' => 'latest',
+      'credentials' => [
+        'key' => 'AKIAVYC4RQCS57QFIQ2O',
+        'secret' => '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',
+      ],
+    ]);
 
-                // Display the guests in a table
-                    echo '<tr>';
-                    echo '<td>' .['email'] . '</td>';
-                    echo '<td>' .['country'] . '</td>';
-                    echo '<td>' .['name'] . '</td>';
-                    echo '</tr>';
-                ?>
+    // Display the guests in a table
+    $tableName = 'Guestbook';
+    $result = $client->scan([
+      'TableName' => $tableName,
+    ]);
 
+    foreach ($result['Items'] as $item) {
+      echo '<tr>';
+      echo '<td>' . $item['name']['S'] . '</td>';
+      echo '<td>' . $item['phone']['S'] . '</td>';
+      echo '<td>' . $item['country']['S'] . '</td>';
+      echo '</tr>';
+    }
+  ?>
                         
 		<!-- the end of your dynamo pickups -->
 
