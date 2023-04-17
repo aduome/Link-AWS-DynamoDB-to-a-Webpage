@@ -39,8 +39,8 @@
       'region' => 'us-east-1',
       'version' => 'latest',
       'credentials' => [
-        'key' => 'AKIAVYC4RQCS57QFIQ2O',
-        'secret' => 'FxbaV8ojbSn+kGK1ozZtCndUBNlBqN2+G+K9yXU+',
+        'key' => 'YOUR_AWS_ACCESS_KEY',
+        'secret' => 'YOUR_AWS_SECRET_ID',
       ],
     ]);
 
