@@ -19,9 +19,9 @@
     <thead>
         <tr>
 		<!-- tr is a row, th is the header, add or remove this to see changes on column header -->
-            <th>Name</th>
-            <th>phone</th>
+            <th>Email</th>
             <th>Country</th>
+            <th>Name</th>
         </tr>
     </thead>
     <tbody>
@@ -45,16 +45,16 @@
     ]);
 
     // Display the guests in a table
-    $tableName = 'Guestbook';
+    $tableName = 'GuestBook';
     $result = $client->scan([
       'TableName' => $tableName,
     ]);
 
     foreach ($result['Items'] as $item) {
       echo '<tr>';
-      echo '<td>' . $item['name']['S'] . '</td>';
-      echo '<td>' . $item['phone']['S'] . '</td>';
-      echo '<td>' . $item['country']['S'] . '</td>';
+      echo '<td>' . $item['Email_id']['S'] . '</td>';
+      echo '<td>' . $item['Country']['S'] . '</td>';
+      echo '<td>' . $item['Name']['S'] . '</td>';
       echo '</tr>';
     }
   ?>
