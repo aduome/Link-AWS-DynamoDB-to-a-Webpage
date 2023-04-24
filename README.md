@@ -46,7 +46,7 @@ Task 1 - Create a dynamo dB table using the console.
 
 ### Item List in Json Format
 
-![Enter Table Name](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%201_IMAGES/7_Items%20added%20in%20Json%20View.png)
+![Items Json View](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%201_IMAGES/7_Items%20added%20in%20Json%20View.png)
 
 ### Task 1 Completed Successfully
 
@@ -56,11 +56,27 @@ Task 2 - Use AWS SDK to display dynamo data to a web file.
 ```
 **To Do List For Task 2**
 
-1.	Install Composer (https://getcomposer.org/), a package manager for PHP.  
+1.	[Install Composer](https://getcomposer.org/), a package manager for PHP.  
 2.	In your project directory, run the “composer require aws/aws-sdk-php". This will install the needed packages. 
-3.	Git error: Install git from here, https://git-scm.com/download 
+
+![Install Composer](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/1_1_Composer%20Installed.png)
+
+3.	Git error: [Install git from here](https://git-scm.com/download) 
 4.	Once the AWS SDK for PHP is installed, you can use it in your PHP code by including the Composer-generated autoloader: 
+
+### Guestlist.php codes to run to call dynamodb table.
+
+![Codes to Run to Call Dynamodb Table](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/1_1_1_Guestlist.php%20codes%20to%20run%20to%20call%20dynamodb%20table.png)
+
 5.	require 'vendor/autoload.php'; 
 6.	You are now able to call on dynamo and perform the desired functions.
 
+### Challenges Faced in Calling the DynamoDB Table Item List
 
+*Error 1 - Composer wasn't installed in the directory containing the guestlist.php file*
+
+![Composer wasn't installed in the directory containing the guestlist.php file](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/1_Guestlist.php%20error.png)
+
+*Error 2 - The DynamoDB Table name was different from what was in the Guestlist.php file*
+
+![The DynamoDB Table name was different from what was in the Guestlist.php file](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/2_Guestlist%20Error%202.png)
