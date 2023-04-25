@@ -147,11 +147,20 @@ Task 3 - Create a dynamo dB table using terraform.
 
 ![Terraform Apply Code Running](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/9_Terraform%20Apply%20success%205.PNG)
 
+#### Terraform_GuestBook_2 Table Created on DynamoDB using Terraform
+
+![ Terraform_GuestBook_2 Table Created on DynamoDB using Terraform](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/10_Terraform_GuestBook_2%20Table%20Created%20on%20DynamoDB%20using%20Terraform.PNG)
+
+#### Terraform_GuestBook_2 Table And Items Added on Dynamodb Using Terraform
+
+![Terraform_GuestBook_2 Table And Items Added on Dynamodb Using Terraform](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/11_Terraform_GuestBook_2_and_Items%20on%20Dynamodb.PNG)
+
 ### Task 3 Completed Successfully
 
 ---
+
 ```
-Task 4 - Use AWS SDK to display dynamo data to a web file.
+Task 4 - Package web app using docker (version 3)
 ```
 **To Do List For Task 4**
 
@@ -159,8 +168,18 @@ Task 4 - Use AWS SDK to display dynamo data to a web file.
 2.	Build the Docker image using the following command:  
 -	docker build -t your-dockerhub-username/docker-web-app:3.0 .  
 -	This will build a Docker image with the name "your-dockerhub-username/docker-web-app" and the tag "3.0".  
+
+![Docker Build](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%204_IMAGES/Task%204_Docker%20Build.PNG)
+
 3.	Push the Docker image to DockerHub using the following command:  
 -	docker push your-dockerhub-username/docker-web-app:3
 
+![Docker Push](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%204_IMAGES/Task%204_Docker%20Push_Successful.PNG)
 
+#### Images Pushed at Docker Hub
 
+![Docker Push](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%204_IMAGES/Task%204_docker-web-app%20at%20dockerhub.PNG)
+
+### Task 4 Completed Successfully
+
+---
