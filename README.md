@@ -40,11 +40,11 @@ Task 1 - Create a dynamo dB table using the console.
 
 ![Add Items in The Form](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%201_IMAGES/5_Items%20added%20in%20Form.png)
 
-### Item List in a Table
+#### Item List in a Table
 
 ![Item List in The Table](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%201_IMAGES/6_Item%20list%20in%20a%20table.png)
 
-### Item List in Json Format
+#### Item List in Json Format
 
 ![Items Json View](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%201_IMAGES/7_Items%20added%20in%20Json%20View.png)
 
@@ -64,14 +64,14 @@ Task 2 - Use AWS SDK to display dynamo data to a web file.
 3.	Git error: [Install git from here](https://git-scm.com/download) 
 4.	Once the AWS SDK for PHP is installed, you can use it in your PHP code by including the Composer-generated autoloader: 
 
-### Guestlist.php codes to run to call dynamodb table.
+#### Guestlist.php codes to run to call dynamodb table.
 
 ![Codes to Run to Call Dynamodb Table](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/1_1_1_Guestlist.php%20codes%20to%20run%20to%20call%20dynamodb%20table.png)
 
 5.	require 'vendor/autoload.php'; 
 6.	You are now able to call on dynamo and perform the desired functions.
 
-### Challenges Faced in Calling the DynamoDB Table Item List
+#### Challenges Faced in Calling the DynamoDB Table Item List
 
 *Error 1 - Composer wasn't installed in the directory containing the guestlist.php file*
 
@@ -80,3 +80,87 @@ Task 2 - Use AWS SDK to display dynamo data to a web file.
 *Error 2 - The DynamoDB Table name was different from what was in the Guestlist.php file*
 
 ![The DynamoDB Table name was different from what was in the Guestlist.php file](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/2_Guestlist%20Error%202.png)
+
+*Debugging With CHATGPT*
+
+![Guestlist Error_CHATGPT Debugging suggestions](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/3_Guestlist%20Error_CHATGPT%20Debugging%20suggestions.png)
+
+*First Success Running the Guestlist.php file but with Partition key Error*
+
+![Guestlist.php file but with Partition key Error](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/4_Guestlist%20Error_Success%20but%20error%20with%20Partition%20key.png)
+
+*Second Success Running the Guestlist.php file but with Table Heading Error*
+
+![Second Success Running the Guestlist.php file but with Table Heading Error](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/5_Guestlist%20success%202.png)
+
+*Final Success Running the Guestlist.php File by Calling The Dynamodb Table*
+
+![Final Success Running the Guestlist.php File by Calling The Dynamodb Table](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/6_Guestlist.php%20Success%20Final.png)
+
+### Task 2 Completed Successfully
+
+---
+```
+Task 3 - Create a dynamo dB table using terraform.
+```
+**To Do List For Task 3**
+
+- A terraform file is a configuration file that defines the infrastructure and resources to be created by Terraform. 
+- A dynamo dB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.  
+1.	Install Terraform on your local machine following the installation guide for your operating system: install terraform
+
+![Terraform Installed Successfully](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/1_1_1_Terraform%20installed%20successfully.png)
+
+2.	Set up your AWS credentials on your local machine. You can do this by configuring the AWS Command Line Interface (CLI) using the aws configure command. 
+3.	Create a new directory/folder on your local machine where you will store your Terraform configuration files.  
+4.	Create a new file in your Terraform directory called anything.tf. 
+
+![Terraform Anything.tf File Created](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/1_1_Terraform_anything.tf%20file%20created.png)
+
+#### Anything.tf file content
+
+![Terraform Anything.tf File Created](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/1_2_Terraform_anything.tf%20file%20created.png)
+
+5.	In your anything.tf file, define your AWS provider. This tells Terraform which AWS region to use and which AWS credentials to use. 
+6.	To create a dynamo dB using a terraform file, you need to: 
+-	Define the attributes and settings of the dynamo dB table, such as name, hash key, range key, read capacity, write capacity, etc. 
+-	Dummy Data can be added in the same file, different file. But make sure you add the data using terraform. 
+
+7.	Run terraform init to initialize the working directory and download the required plugins 
+8.	Run terraform plan to preview the changes that will be made 
+
+#### Terraform Plan Code Running
+
+![Terraform Plan Code Running](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/1_Terraform%20plan%20success%201.PNG)
+
+#### Terraform Plan Code Running 2
+
+![Terraform Plan Code Running](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/2_Terraform%20plan%20success%202.PNG)
+
+9.	Run terraform apply to create the dynamo dB table
+
+#### Terraform Apply Code Running
+
+![Terraform Apply Code Running](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/5_Terraform%20Apply%20success%201.PNG)
+
+#### Terraform Apply Code Running 2
+
+![Terraform Apply Code Running](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/9_Terraform%20Apply%20success%205.PNG)
+
+### Task 3 Completed Successfully
+
+---
+```
+Task 4 - Use AWS SDK to display dynamo data to a web file.
+```
+**To Do List For Task 4**
+
+1.	Create a Dockerfile in the "version3" folder with the following contents: Dockerfiles are what tell docker how it should build your image (environments)  
+2.	Build the Docker image using the following command:  
+-	docker build -t your-dockerhub-username/docker-web-app:3.0 .  
+-	This will build a Docker image with the name "your-dockerhub-username/docker-web-app" and the tag "3.0".  
+3.	Push the Docker image to DockerHub using the following command:  
+-	docker push your-dockerhub-username/docker-web-app:3
+
+
+
