@@ -1,15 +1,16 @@
 # AWS CLOUD PROJECT
+
+<a name="readme-top"></a>
 ## Collaborations
 #### This is a hand-on cloud engineering project delivered by the azubi africa cloud team in 2023. After 6 months of AWS cloud training and front-end development, we got a chance to work on some realife cloud projects. It focuses on working with dynamo dB, docker and terraform. I was able to work with:
 
-1. Daniel Agyei [@their_linkedin](https://www.linkedin.com/in/daniel-owusu-banahene-agyei-3a4172136)
-2. Darko Larbi [@their_linkedin](https://www.linkedin.com/in/kdarkolarbi)
-3. Fahad Mohammed [@their_linkedin](https://www.linkedin.com/in/fahad-mohammed2)
-4. Dotse Dossou [@their_linkedin](https://www.linkedin.com/in/dotse-dossou)
+1. Darko Larbi [@_linkedin](https://www.linkedin.com/in/kdarkolarbi)
+2. Fahad Mohammed [@_linkedin](https://www.linkedin.com/in/fahad-mohammed2)
+3. Dotse Dossou [@ linkedin](https://www.linkedin.com/in/dotse-dossou)
 
 
 ## About The Project
-## The project have four major tasks which are
+## The project have four major tasks which are:
 
 ```
 Task 1 - Create a dynamo dB table using the console.
@@ -59,6 +60,8 @@ Task 1 - Create a dynamo dB table using the console.
 
 ### Task 1 Completed Successfully
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 ```
 Task 2 - Use AWS SDK to display dynamo data to a web file.
@@ -92,6 +95,8 @@ Task 2 - Use AWS SDK to display dynamo data to a web file.
 
 *Debugging With CHATGPT*
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ![Guestlist Error_CHATGPT Debugging suggestions](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/3_Guestlist%20Error_CHATGPT%20Debugging%20suggestions.png)
 
 *First Success Running the Guestlist.php file but with Partition key Error*
@@ -107,6 +112,8 @@ Task 2 - Use AWS SDK to display dynamo data to a web file.
 ![Final Success Running the Guestlist.php File by Calling The Dynamodb Table](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/6_Guestlist.php%20Success%20Final.png)
 
 ### Task 2 Completed Successfully
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 ```
@@ -140,6 +147,8 @@ Task 3 - Create a dynamo dB table using terraform.
 
 #### Terraform Plan Code Running
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ![Terraform Plan Code Running](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/1_Terraform%20plan%20success%201.PNG)
 
 #### Terraform Plan Code Running 2
@@ -166,6 +175,8 @@ Task 3 - Create a dynamo dB table using terraform.
 
 ### Task 3 Completed Successfully
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ```
@@ -190,6 +201,8 @@ Task 4 - Package web app using docker (version 3)
 ![Docker Push](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%204_IMAGES/Task%204_docker-web-app%20at%20dockerhub.PNG)
 
 ### Task 4 Completed Successfully
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
