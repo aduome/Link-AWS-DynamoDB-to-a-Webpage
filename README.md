@@ -7,6 +7,7 @@
 1. Darko Larbi [@_linkedin](https://www.linkedin.com/in/kdarkolarbi)
 2. Fahad Mohammed [@_linkedin](https://www.linkedin.com/in/fahad-mohammed2)
 3. Dotse Dossou [@ linkedin](https://www.linkedin.com/in/dotse-dossou)
+4. Joseph Baako [@ linkedin](https://www.linkedin.com/in/joseph-baako)
 
 
 ## About The Project
