@@ -3,6 +3,9 @@
 #### This is a hand-on cloud engineering project delivered by the azubi africa cloud team in 2023. After 6 months of AWS cloud training and front-end development, we got a chance to work on some realife cloud projects. It focuses on working with dynamo dB, docker and terraform. I was able to work with:
 
 1. Daniel Agyei [@their_linkedin](https://www.linkedin.com/in/daniel-owusu-banahene-agyei-3a4172136)
+2. Darko Larbi [@their_linkedin](https://www.linkedin.com/in/kdarkolarbi)
+3. Fahad Mohammed [@their_linkedin](https://www.linkedin.com/in/fahad-mohammed2)
+4. Dotse Dossou [@their_linkedin](https://www.linkedin.com/in/dotse-dossou)
 
 
 ## About The Project
@@ -189,3 +192,45 @@ Task 4 - Package web app using docker (version 3)
 ### Task 4 Completed Successfully
 
 ---
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow the instructions below:
+
+
+### Installation
+
+1. Clone this [Github Repo](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage)
+  
+2. Follow the STEPS above to complete TASK 1 to 4.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Daniel Agyei - [@my_linkedin](https://www.linkedin.com/in/daniel-owusu-banahene-agyei-3a4172136)
+
+Email: [My Email](daniel.agyeibanahene@gmail.com)
+
+Project Link: [Project Link](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- References -->
+## References
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+* [Terraform Cheat sheet](https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet)
+* [Composer Cheat sheet](https://devhints.io/composer)
+* [Docker Cheat sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
+* [GitHub Pages](https://pages.github.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
