@@ -1,4 +1,10 @@
 # AWS CLOUD PROJECT
+## Collaborations
+#### This is a hand-on cloud engineering project delivered by the azubi africa cloud team in 2023. After 6 months of AWS cloud training and front-end development, we got a chance to work on some realife cloud projects. It focuses on working with dynamo dB, docker and terraform. I was able to work with:
+
+1. Daniel Agyei [@their_linkedin](https://www.linkedin.com/in/daniel-owusu-banahene-agyei-3a4172136)
+
+
 ## About The Project
 ## The project have four major tasks which are
 
