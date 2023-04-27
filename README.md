@@ -71,19 +71,45 @@ Task 2 - Use AWS SDK to display dynamo data to a web file.
 **To Do List For Task 2**
 
 1.	[Install Composer](https://getcomposer.org/), a package manager for PHP.  
-2.	In your project directory, run the “composer require aws/aws-sdk-php". This will install the needed packages. 
+
+#### Composer Command-line installation
+
+To quickly install Composer in the current directory, run the following script in your terminal.
+
+```
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+
+```
+This installer script will simply check some php.ini settings, warn you if they are set incorrectly, and then download the latest composer.phar in the current directory. The 4 lines above will, in order:
+
+- Download the installer to the current directory
+- Verify the installer SHA-384, which you can also cross-check here
+- Run the installer
+- Remove the installer
+
+Check the Composer Website [Composer Download](https://getcomposer.org/download/) for other installation instructions.
+
+2.	In your project directory, run this command This will install the needed packages. 
+
+```
+“composer require aws/aws-sdk-php"
+```
 
 ![Install Composer](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/1_1_Composer%20Installed.png)
 
 3.	Git error: [Install git from here](https://git-scm.com/download) 
 4.	Once the AWS SDK for PHP is installed, you can use it in your PHP code by including the Composer-generated autoloader: 
+- sample code found here [PHP sample code](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/frontend/guestlist.php)
 
 #### Guestlist.php codes to run to call dynamodb table.
 
 ![Codes to Run to Call Dynamodb Table](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%202_IMAGES/1_1_1_Guestlist.php%20codes%20to%20run%20to%20call%20dynamodb%20table.png)
 
-5.	require 'vendor/autoload.php'; 
-6.	You are now able to call on dynamo and perform the desired functions.
+-	require 'vendor/autoload.php'; 
+5.	Call on dynamoDB and perform the desired functions.
 
 #### Challenges Faced in Calling the DynamoDB Table Item List
 
@@ -125,11 +151,15 @@ Task 3 - Create a dynamo dB table using terraform.
 
 - A terraform file is a configuration file that defines the infrastructure and resources to be created by Terraform. 
 - A dynamo dB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.  
-1.	Install Terraform on your local machine following the installation guide for your operating system: install terraform
+1.	Install Terraform on your local machine following the installation guide for your operating system: 
+
+- install terraform by following the instructions and codes found here [Terraform Installlation Guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli?in=terraform%2Faws-get-started]
 
 ![Terraform Installed Successfully](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/1_1_1_Terraform%20installed%20successfully.png)
 
 2.	Set up your AWS credentials on your local machine. You can do this by configuring the AWS Command Line Interface (CLI) using the aws configure command. 
+
+
 3.	Create a new directory/folder on your local machine where you will store your Terraform configuration files.  
 4.	Create a new file in your Terraform directory called anything.tf. 
 
@@ -240,7 +270,7 @@ Project Link: [Project Link](https://github.com/aduome/Link-AWS-DynamoDB-to-a-We
 <!-- References -->
 ## References
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+### Useful Resources
 
 * [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 * [Terraform Cheat sheet](https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet)
