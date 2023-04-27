@@ -153,15 +153,22 @@ Task 3 - Create a dynamo dB table using terraform.
 - A dynamo dB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.  
 1.	Install Terraform on your local machine following the installation guide for your operating system: 
 
-- install terraform by following the instructions and codes found here [Terraform Installlation Guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli?in=terraform%2Faws-get-started]
+- Install terraform by following the instructions and codes found here [Terraform Installlation Guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli?in=terraform%2Faws-get-started)
 
 ![Terraform Installed Successfully](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/1_1_1_Terraform%20installed%20successfully.png)
 
 2.	Set up your AWS credentials on your local machine. You can do this by configuring the AWS Command Line Interface (CLI) using the aws configure command. 
 
+- AWS CLI Installation command
 
+```
+ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+ unzip awscliv2.zip
+ sudo ./aws/install
+```
 3.	Create a new directory/folder on your local machine where you will store your Terraform configuration files.  
 4.	Create a new file in your Terraform directory called anything.tf. 
+- Get a sample file 'anything.tf' here [Sample file 'Anything.tf'](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/frontend/Terraform/anything.tf)
 
 ![Terraform Anything.tf File Created](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%203_IMAGES/1_1_Terraform_anything.tf%20file%20created.png)
 
@@ -172,7 +179,7 @@ Task 3 - Create a dynamo dB table using terraform.
 5.	In your anything.tf file, define your AWS provider. This tells Terraform which AWS region to use and which AWS credentials to use. 
 6.	To create a dynamo dB using a terraform file, you need to: 
 -	Define the attributes and settings of the dynamo dB table, such as name, hash key, range key, read capacity, write capacity, etc. 
--	Dummy Data can be added in the same file, different file. But make sure you add the data using terraform. 
+- Make sure you add the data using terraform. 
 
 7.	Run terraform init to initialize the working directory and download the required plugins 
 8.	Run terraform plan to preview the changes that will be made 
@@ -218,14 +225,17 @@ Task 4 - Package web app using docker (version 3)
 
 1.	Create a Dockerfile in the "version3" folder with the following contents: Dockerfiles are what tell docker how it should build your image (environments)  
 2.	Build the Docker image using the following command:  
--	docker build -t your-dockerhub-username/docker-web-app:3.0 .  
+```
+docker build -t your-dockerhub-username/docker-web-app:3.0 . 
+```
 -	This will build a Docker image with the name "your-dockerhub-username/docker-web-app" and the tag "3.0".  
 
 ![Docker Build](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%204_IMAGES/Task%204_Docker%20Build.PNG)
 
 3.	Push the Docker image to DockerHub using the following command:  
--	docker push your-dockerhub-username/docker-web-app:3
-
+```
+docker push your-dockerhub-username/docker-web-app:3
+```
 ![Docker Push](https://github.com/aduome/Link-AWS-DynamoDB-to-a-Webpage/blob/main/PROJECT%20IMAGES/TASK%204_IMAGES/Task%204_Docker%20Push_Successful.PNG)
 
 #### Images Pushed at Docker Hub
@@ -277,5 +287,5 @@ Project Link: [Project Link](https://github.com/aduome/Link-AWS-DynamoDB-to-a-We
 * [Composer Cheat sheet](https://devhints.io/composer)
 * [Docker Cheat sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 * [GitHub Pages](https://pages.github.com)
-
+* [Gitpod](https://www.gitpod.io/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
