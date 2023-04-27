@@ -280,7 +280,7 @@ Project Link: [Project Link](https://github.com/aduome/Link-AWS-DynamoDB-to-a-We
 <!-- References -->
 ## References
 
-### Useful Resources
+### Useful Resources And Links
 
 * [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 * [Terraform Cheat sheet](https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet)
@@ -288,4 +288,5 @@ Project Link: [Project Link](https://github.com/aduome/Link-AWS-DynamoDB-to-a-We
 * [Docker Cheat sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 * [GitHub Pages](https://pages.github.com)
 * [Gitpod](https://www.gitpod.io/)
+* [Chat GPT](https://chat.openai.com/auth/login)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
